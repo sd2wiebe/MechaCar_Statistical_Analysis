@@ -32,7 +32,7 @@ If we isolate these variables and graph their relationship to MPG with a line of
 
 </p>
 
-I do not believe our model effectively predicts MPG of MechaCar prototypes. Even though we have a decent r-squared value of .7149, this is still not high enough to accurately predict mpg of MechaCar prototypes. Our regression leaves us with this equation:
+I do not believe our model effectively predicts MPG of MechaCar prototypes. Even though we have a decent r-squared value of .7149, this is still not high enough to accurately predict mpg of MechaCar prototypes. Our regression leaves us with this equation where AWD is a dummy variable with value either 0 or 1:
 
 MPG= 6.26(vehicle length) + 0.00124(vehicle weight) + .0689(spoiler angle) + 3.54(ground clearance) - 3.41(AWD) -104
 
@@ -101,5 +101,5 @@ For lot 2 we see there is a p-value of .61, thus we must accept the null hypothe
 ![alttext](https://github.com/sd2wiebe/MechaCar_Statistical_Analysis/blob/main/t_test_lot3.png)
 
 </p>
-For lot 3 we see there is a p-value of .042, which is less than .05. Thus we must reject the null hypothesis that the a significant difference in means does not exist, and accept the alternative hypothesis that a significant difference in means does exist.
+For lot 3 we see there is a p-value of .042, which is less than .05. Thus we must reject the null hypothesis that a significant difference in means does not exist, and accept the alternative hypothesis that a significant difference in means does exist.
 
