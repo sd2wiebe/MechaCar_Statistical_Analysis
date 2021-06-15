@@ -46,5 +46,7 @@ If we use this equation with the MechaCar dataset and see what the predicted MPG
 On one hand, we have half of the first 27 prototypes mpg being predicted accurately within 10% of the actual mpg which is not too bad. But on the other hand there is a lot of volatility in the inaccuracy of some of the predictions, for example we have 8/27 model predicted mpg values that were 20% or more off of the actual mpg.
 Thus we are on our way to an accurate model, however there are clearly other variables we are missing that we need in  our model to accurately and efficiently predict MPG in MechaCar prototypes.
  
+## Summary Statistics on Suspension Coils
+
 
 
