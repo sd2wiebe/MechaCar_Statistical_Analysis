@@ -74,14 +74,32 @@ In order to determine whether the mean PSI across manufacturing lots is statisti
 ![alttext](https://github.com/sd2wiebe/MechaCar_Statistical_Analysis/blob/main/t_test1.png)
 
 </p>
- This test yields a P-value of .06 which is slightly to high for our confidence interval of 95%. Thus we must reject the null hypothesis that the sample mean is statistically the same as the population mean, and accept the alternative hypothesis that the true mean is not equal to 1500.
+ This test yields a P-value of .06 which is slightly to high for our confidence interval of 95%. Thus we must accept the null hypothesis that the sample mean is statistically the same as the population mean of 1500.
  
 I then conducted similar t-tests that test whether the mean for each manufacturing lot is statistically different than the population mean of 1500 PSI.
 
 ### Lot 1:
 <p align="center"
 
-![alttext](https://github.com/sd2wiebe/MechaCar_Statistical_Analysis/blob/main/t_test1.png)
+![alttext](https://github.com/sd2wiebe/MechaCar_Statistical_Analysis/blob/main/t_test_lot1.png)
 
 </p>
+
+For lot 1 we see there is a p-value of 1 - that can't be right, but it is! This is because the mean is exactly 1500, thus we certainly must accept the null hypothesis that the a significant difference in means does not exist.
+
+### Lot 2:
+<p align="center"
+
+![alttext](https://github.com/sd2wiebe/MechaCar_Statistical_Analysis/blob/main/t_test_lot2.png)
+
+</p>
+
+For lot 2 we see there is a p-value of .61, thus we must accept the null hypothesis that the a significant difference in means does not exist.
+### Lot 3:
+<p align="center"
+
+![alttext](https://github.com/sd2wiebe/MechaCar_Statistical_Analysis/blob/main/t_test_lot3.png)
+
+</p>
+For lot 3 we see there is a p-value of .042, which is less than .05. Thus we must reject the null hypothesis that the a significant difference in means does not exist, and accept the alternative hypothesis that a significant difference in means does exist.
 
