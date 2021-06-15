@@ -103,3 +103,30 @@ For lot 2 we see there is a p-value of .61, thus we must accept the null hypothe
 </p>
 For lot 3 we see there is a p-value of .042, which is less than .05. Thus we must reject the null hypothesis that a significant difference in means does not exist, and accept the alternative hypothesis that a significant difference in means does exist.
 
+## Study Design: MechaCar vs Competition
+ing
+The following are details regarding a study that will be preformed in order to determine the performance of the MechaCar's vs the competition. The metrics that will be tested are:
+<li> Turning Radius </li>
+<li>Top Speed</li>
+<li>Second Moment</li>
+
+### Turning Radius (lower is better)
+Turning radius is defined as the amount of space needed for a vehicle to successfully turn around (180 degrees). Thus for this metric the less amount of space needed is better. To test this metric vs the competition we will use a one tail, two sample t-test. This is because we only want to see if the MechaCar's turning radius is statistically lower than the competition.
+<li>Null hypothesis: The competition has a statistically lower turning radius from the observed sample means</li>
+<li>Alternative Hypothesis: The MachaCar has a statistically lower turning radius from the observed sample means </li>
+<li>Data Needed: We would need the mean turning radius in feet for both the competition and the MechaCar's</li>
+
+### Top Speed (MPH -Higher is better)
+
+Top speed is defined as the maximum rate of straight line travel. Thus we would ideally want a higher top speed in miles per hour. To test this metric vs the competition we will use a one tail, two sample t-test. This is because we only want to see if the MechaCar's top speed is statistically higher than the competition.
+<li>Null hypothesis: The competition has a statistically higher top speed from the observed sample means</li>
+<li>Alternative Hypothesis: The MachaCar has a statistically higher top from the observed sample means </li>
+<li>Data Needed: We would need the mean top speed for both the competition and the MechaCar's</li>
+
+### Second Moment (PSI- lower permits quicker turn-in)
+The second moment is defined as the moment of inertia about a vertical axis of a vehicle. The lower the PSI of the second moment the bette a car is able to turn in to a corner. To test this metric vs the competition we will use a one tail, two sample t-test. This is because we only want to see if the MechaCar's second moment PSI is statistically lower than the competition.
+<li>Null hypothesis: The competition has a statistically lower second moment PSI from the observed sample means</li>
+<li>Alternative Hypothesis: The MachaCar has a statistically lower second moment PSI from the observed sample means </li>
+<li>Data Needed: We would need the mean second moment PSI for both the competition and the MechaCar's</li>
+
+
